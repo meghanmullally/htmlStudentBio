@@ -29,16 +29,15 @@ h3 {
   font-size: 25px;
 }
 
-img {
-  float: left;
-  width: 200px;
-  margin: 10px;
+.container {
+  width: 1024px;
+  margin: 0 auto;
 }
 
 p {
   text-align: left;
   padding: 10px;
-  margin: 10px;
+  margin: 0 auto;
 }
 
 /* ul {
@@ -46,14 +45,22 @@ p {
   list-style-position: inside;
 } */
 
-#main-bio {
+#main-bio, #contact-info, #bio-image {
   float: left;
+}
+
+#bio-img {
+  width: 200px;
+  margin: 5px;
+}
+
+
+#main-bio {
   width: 70%;
   margin: 0 auto;
 }
 
 #contact-info {
-  float: left;
   width: 30%;
   margin: 0 auto;
 }
